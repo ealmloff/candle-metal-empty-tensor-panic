@@ -1,0 +1,8 @@
+[package]
+name = "candle-metal-empty-tensor-panic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candle-core = { version = "0.8.2", features = ["metal"] }
+safetensors = "0.4.0"
